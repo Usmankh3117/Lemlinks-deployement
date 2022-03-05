@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "ConfirmEmail";
+}
+
+<div class="container">
+    <div class="row">
+        <div style="text-align: center !important;margin: 100px auto !important;">
+            @if (ViewBag.successMessage != null)
+            {
+                <h1 class="m-login__title">
+                    Thank You!
+                </h1>
+                <div class="m-login__desc">
+                    <h1 class="m-login__title m-subhead-title">
+                        Welcome to Limlink
+                    </h1>
+                    You're all set to use our system.<br /><br />
+                    Thank you for account verification
+                </div>
+            }
+            else if (ViewBag.errorMessage != null)
+            {
+                <h1 class="m-login__title">
+                    Something went wrong.
+                </h1>
+                <div class="m-login__desc">
+                    @ViewBag.errorMessage
+                </div>
+            }
+        </div>
+    </div>
+</div>

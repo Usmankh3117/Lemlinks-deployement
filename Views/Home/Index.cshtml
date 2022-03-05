@@ -1,0 +1,115 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<html>
+<head>
+    <title>Pricing Table</title>
+
+    <link rel="stylesheet" href="~/Contents/Elegant Bootstrap Pricing Table.css">
+    <link href="~/Contents/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/Contents/font-awesome.css">
+    <link rel="stylesheet" href="~/Contents/bootstrap.js">
+    <link rel="stylesheet" href="~/Contents/jquery-3.4.1.slim.js">
+    <link rel="stylesheet" href="~/Contents/popper.js">
+
+</head>
+<body>
+
+    <section class="pricing-table">
+        <div class="logo-img" style="text-align: center;"><img src="~/Contents/Lemlinks.png"></div>
+        <div class="container">
+            <div class="block-heading">
+                <h2>BUY CREDITS</h2>
+                <p>Why pay for monthly subscription, when you can pay as you use!</p>
+            </div>
+            <div class="row justify-content-md-center">
+                <div class="col-md-5 col-lg-4">
+                    <div class="item">
+                        <div class="heading">
+                            <h3>100,000 Credits</h3>
+                        </div>
+                        <div class="price">
+                            <h4>$10</h4>
+                        </div>
+                        <form action="/home/CreateSession" method="POST">
+                            <input type="hidden" id="hdn10PriceId" name="PriceId" value="price_1JWbY6CrhLDCjGGisaXujtxw" />
+                            <button class="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="item">
+                        <div class="heading">
+                            <h3>500,000 Credits</h3>
+                        </div>
+                        <div class="price">
+                            <h4>$50</h4>
+                        </div>
+                        <form action="/home/CreateSession" method="POST">
+                            <input type="hidden" id="hdn50PriceId" name="PriceId" value="price_1JWbZTCrhLDCjGGi27jGy69t" />
+                            <button class="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="item">
+                        <div class="heading">
+                            <h3>1,000,000 Credits</h3>
+                        </div>
+                        <div class="price">
+                            <h4>$100</h4>
+                        </div>
+                        <form action="/home/CreateSession" method="POST">
+                            <input type="hidden" id="hdn100PriceId" name="PriceId" value="price_1JWbZsCrhLDCjGGi4LbJ8EiI" />
+                            <button class="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="col-md-5 col-lg-4">
+                    <div class="item">
+                        <div class="heading">
+                            <h3>2,000,000 Credits</h3>
+                        </div>
+                        <div class="price">
+                            <h4>$200</h4>
+                        </div>
+                        <form action="/home/CreateSession" method="POST">
+                            <input type="hidden" id="hdn200PriceId" name="PriceId" value="price_1JWbaGCrhLDCjGGicmvhvtgy" />
+                            <button class="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="item">
+                        <div class="heading">
+                            <h3>5 Million Credits</h3>
+                        </div>
+                        <div class="price">
+                            <h4>$500</h4>
+                        </div>
+                        <form action="/home/CreateSession" method="POST">
+                            <input type="hidden" id="hdn500PriceId" name="PriceId" value="price_1JWbaXCrhLDCjGGii5haiA9G" />
+                            <button class="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="item">
+                        <div class="heading">
+                            <h3>10 Million Credits</h3>
+                        </div>
+                        <div class="price">
+                            <h4>$1000</h4>
+                        </div>
+                        <form action="/home/CreateSession" method="POST">
+                            <input type="hidden" id="hdn1000PriceId" name="PriceId" value="price_1JWbavCrhLDCjGGiX0t1IapT" />
+                            <button class="btn btn-block btn-outline-primary" type="submit">BUY NOW</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
